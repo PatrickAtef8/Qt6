@@ -41,6 +41,7 @@ make menuconfig
 ```
 Make the following selections:
 1. Navigate to **Target Packages → [*] QT GPIO APP**
+   - This will be shown after step no.6 please do it and re-type make menuconfig ans select enable it.
 2. Under **Graphic Libraries and Applications**, enable Qt6:
    - Fontconfig support
    - Harfbuzz support
@@ -51,13 +52,12 @@ Make the following selections:
    - Qt6 Tools
 
    ### menuconfig 
-   1- 
-   ![1](Materials/1.png)
-   2-
+   
+   1-
    ![2](Materials/2.png)
-   3-
+   2-
    ![3](Materials/3.png)
-   4-
+   3-
    ![4](Materials/4.png)
 
 
@@ -85,6 +85,8 @@ Edit `package/Config.in` to include:
 ```sh
 source "package/qt-gpio-app/Config.in"
 ```
+**Now it's here**
+   ![1](Materials/1.png)
 This ensures Buildroot recognizes our custom package, Include it under Target packages menu.
 
 ### 7. Build the System
