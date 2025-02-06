@@ -221,3 +221,7 @@ Since the LED state is toggled in C++, the UI can be updated accordingly by read
 
 ## Conclusion
 This project demonstrates how to use Qt6 and Buildroot to develop an embedded Linux application for Raspberry Pi, integrating GUI development with hardware control. 🚀
+
+### Final Video Result 
+
+https://github.com/user-attachments/assets/25eb5c50-022d-4361-812b-1e3c01d09d1e
