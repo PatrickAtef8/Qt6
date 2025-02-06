@@ -41,7 +41,7 @@ make menuconfig
 ```
 Make the following selections:
 1. Navigate to **Target Packages → [*] QT GPIO APP**
-   - This will be shown after step no.6 please do it and re-type make menuconfig ans select enable it.
+   - This will be shown after step no.6 do the step and re-type make menuconfig then this option will appear, enable it.
 2. Under **Graphic Libraries and Applications**, enable Qt6:
    - Fontconfig support
    - Harfbuzz support
