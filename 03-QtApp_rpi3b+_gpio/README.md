@@ -85,9 +85,9 @@ Edit `package/Config.in` to include:
 ```sh
 source "package/qt-gpio-app/Config.in"
 ```
+This ensures Buildroot recognizes our custom package, Include it under Target packages menu.
 **Now it's here**
    ![1](Materials/1.png)
-This ensures Buildroot recognizes our custom package, Include it under Target packages menu.
 
 ### 7. Build the System
 Run:
