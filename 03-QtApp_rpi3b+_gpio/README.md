@@ -1,4 +1,4 @@
-# Qt6 LED Control Application for Raspberry Pi 3B+
+# Qt6 LED Control Application for Raspberry Pi 3B+ using buildroot
 
 ## Project Overview
 This project is a Qt6-based graphical user interface (GUI) application designed to control an LED on a Raspberry Pi 3B+ using GPIO. The application is implemented using Qt Quick (QML) for the frontend and C++ for backend logic. The system runs on a custom Buildroot-based Linux distribution.
