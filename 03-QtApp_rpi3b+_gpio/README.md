@@ -89,6 +89,16 @@ This ensures Buildroot recognizes our custom package, Include it under Target pa
 **Now it's here**
    ![1](Materials/1.png)
 
+   
+### 7. You may need those dependencies before build to prevent errors
+Run:
+```sh
+sudo apt install qt6-tools-dev-tools
+```
+```sh
+sudo apt-get install clang-13 llvm-13
+```
+
 ### 7. Build the System
 Run:
 ```sh
