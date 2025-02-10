@@ -99,7 +99,7 @@ sudo apt install qt6-tools-dev-tools
 sudo apt-get install clang-13 llvm-13
 ```
 
-### 7. Build the System
+### 8. Build the System
 Run:
 ```sh
 make -j12
