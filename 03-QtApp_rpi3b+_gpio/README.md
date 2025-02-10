@@ -106,6 +106,13 @@ make -j12
 ```
 This compiles the Qt application and the entire Buildroot system.
 
+### 9. In case errors occures related to`qt6base` or `qt6tools` after resolving them you can just do as follows instead of building the entire buildroot
+```sh
+make host-qt6base-rebuild
+```
+```sh
+make host-qt6tools-rebuild
+```
 ---
 
 ## Preparing the SD Card
