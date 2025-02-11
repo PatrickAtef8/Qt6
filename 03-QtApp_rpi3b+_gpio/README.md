@@ -40,9 +40,10 @@ Run the configuration menu:
 make menuconfig
 ```
 Make the following selections:
-1. Navigate to **Target Packages → [*] QT GPIO APP**
-   - This will be shown after step no.6 do the step and re-type make menuconfig then this option will appear, enable it.
-2. Under **Graphic Libraries and Applications**, enable Qt6:
+1. Select `systemV` from System configuration --> Init system  
+2. Navigate to **Target Packages → [*] QT GPIO APP**
+   - **This will be shown after step no.6 do the step and re-type make menuconfig then this option will appear, enable it.**
+3. Under **Graphic Libraries and Applications**, enable Qt6:
    - Fontconfig support
    - Harfbuzz support
    - GIF, JPEG, PNG support
