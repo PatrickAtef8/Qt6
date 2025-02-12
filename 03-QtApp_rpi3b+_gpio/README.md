@@ -51,6 +51,7 @@ Make the following selections:
    - Qt6 Declarative (for QML)
    - Qt6 SerialPort
    - Qt6 Tools
+  Under **Host utilities**, enable Host linguist tools
 
    ### menuconfig 
    
