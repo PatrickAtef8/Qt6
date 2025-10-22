@@ -1,6 +1,0 @@
-config BR2_PACKAGE_QT_GPIO_APP
-    bool "Qt GPIO App"
-    depends on BR2_PACKAGE_QT6
-    help
-      A Qt6 application to control an LED on Raspberry Pi via GPIO using QML.
-

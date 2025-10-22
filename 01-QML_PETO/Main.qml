@@ -4,7 +4,7 @@ Window {
     visible: true
     width: 640
     height: 480
-    title:qsTr("PETO🔥")
+    title:qsTr("buttons")
 
     Rectangle {
         width: parent.width
